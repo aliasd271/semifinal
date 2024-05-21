@@ -1,0 +1,63 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: 0;
+    position: relative;
+    font-family: "Glory", "Cairo" , sans-serif;
+}
+
+.space {
+    justify-content: space-between;
+}
+
+.card{
+   background-color: aquamarine;
+    padding: 12px;
+    border: 1px solid #323232;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+
+    background-color: white;
+}
+.img-card{
+    aspect-ratio:248/165.33 ;
+    width: 100%;
+}
+
+.img-container img{
+    aspect-ratio:248/165.33 ;
+    width: 100%;
+    height: 100%;
+    object-fit: hidden;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+
+    display: flex; /* found differnt div and size of image display flex remove differnt and make it in same size */
+}
+    
+.hcard{
+    max-height: 533.66px;
+}
+.card-text{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+.cart-product-img {
+    max-height: 100px;
+}
+
